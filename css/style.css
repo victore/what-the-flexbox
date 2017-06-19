@@ -20,9 +20,10 @@
 
 /* Container */
 .container {
-    display: inline-flex;
+    display: flex;
     border: 10px solid goldenrod;
-    height: 100vh;
+    min-height: 100vh;
+    flex-direction: column;
 
 }
 
